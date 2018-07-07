@@ -61,7 +61,7 @@
             this.lblName.Location = new System.Drawing.Point(61, 100);
             this.lblName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(98, 16);
+            this.lblName.Size = new System.Drawing.Size(119, 20);
             this.lblName.TabIndex = 0;
             this.lblName.Text = "Member Name";
             // 
@@ -72,7 +72,7 @@
             this.lblID.Location = new System.Drawing.Point(61, 44);
             this.lblID.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblID.Name = "lblID";
-            this.lblID.Size = new System.Drawing.Size(74, 16);
+            this.lblID.Size = new System.Drawing.Size(92, 20);
             this.lblID.TabIndex = 1;
             this.lblID.Text = "Member ID";
             // 
@@ -83,7 +83,7 @@
             this.lblTelephone.Location = new System.Drawing.Point(58, 156);
             this.lblTelephone.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTelephone.Name = "lblTelephone";
-            this.lblTelephone.Size = new System.Drawing.Size(77, 16);
+            this.lblTelephone.Size = new System.Drawing.Size(91, 20);
             this.lblTelephone.TabIndex = 2;
             this.lblTelephone.Text = "Telephone ";
             // 
@@ -94,7 +94,7 @@
             this.lblNic.Location = new System.Drawing.Point(61, 212);
             this.lblNic.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNic.Name = "lblNic";
-            this.lblNic.Size = new System.Drawing.Size(83, 16);
+            this.lblNic.Size = new System.Drawing.Size(103, 20);
             this.lblNic.TabIndex = 3;
             this.lblNic.Text = "Member NIC";
             // 
@@ -105,7 +105,7 @@
             this.lblAddress.Location = new System.Drawing.Point(61, 268);
             this.lblAddress.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblAddress.Name = "lblAddress";
-            this.lblAddress.Size = new System.Drawing.Size(59, 16);
+            this.lblAddress.Size = new System.Drawing.Size(71, 20);
             this.lblAddress.TabIndex = 4;
             this.lblAddress.Text = "Address";
             // 
@@ -114,7 +114,7 @@
             this.txtMemID.Location = new System.Drawing.Point(180, 41);
             this.txtMemID.Margin = new System.Windows.Forms.Padding(4);
             this.txtMemID.Name = "txtMemID";
-            this.txtMemID.Size = new System.Drawing.Size(132, 22);
+            this.txtMemID.Size = new System.Drawing.Size(132, 26);
             this.txtMemID.TabIndex = 5;
             this.txtMemID.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtMemID_KeyUp);
             // 
@@ -123,7 +123,7 @@
             this.txtMemNic.Location = new System.Drawing.Point(180, 209);
             this.txtMemNic.Margin = new System.Windows.Forms.Padding(4);
             this.txtMemNic.Name = "txtMemNic";
-            this.txtMemNic.Size = new System.Drawing.Size(132, 22);
+            this.txtMemNic.Size = new System.Drawing.Size(132, 26);
             this.txtMemNic.TabIndex = 8;
             this.txtMemNic.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtMemNic_KeyUp);
             // 
@@ -132,7 +132,7 @@
             this.txtMemAddress.Location = new System.Drawing.Point(180, 265);
             this.txtMemAddress.Margin = new System.Windows.Forms.Padding(4);
             this.txtMemAddress.Name = "txtMemAddress";
-            this.txtMemAddress.Size = new System.Drawing.Size(388, 22);
+            this.txtMemAddress.Size = new System.Drawing.Size(388, 26);
             this.txtMemAddress.TabIndex = 9;
             this.txtMemAddress.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtMemAddress_KeyUp);
             // 
@@ -141,7 +141,7 @@
             this.txtMemTelephone.Location = new System.Drawing.Point(180, 153);
             this.txtMemTelephone.Margin = new System.Windows.Forms.Padding(4);
             this.txtMemTelephone.Name = "txtMemTelephone";
-            this.txtMemTelephone.Size = new System.Drawing.Size(132, 22);
+            this.txtMemTelephone.Size = new System.Drawing.Size(132, 26);
             this.txtMemTelephone.TabIndex = 7;
             this.txtMemTelephone.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtMemTelephone_KeyUp);
             // 
@@ -150,7 +150,7 @@
             this.txtMemName.Location = new System.Drawing.Point(180, 97);
             this.txtMemName.Margin = new System.Windows.Forms.Padding(4);
             this.txtMemName.Name = "txtMemName";
-            this.txtMemName.Size = new System.Drawing.Size(228, 22);
+            this.txtMemName.Size = new System.Drawing.Size(228, 26);
             this.txtMemName.TabIndex = 6;
             this.txtMemName.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtMemName_KeyUp);
             // 
@@ -161,14 +161,14 @@
             this.lblDependants.Location = new System.Drawing.Point(61, 324);
             this.lblDependants.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDependants.Name = "lblDependants";
-            this.lblDependants.Size = new System.Drawing.Size(82, 16);
+            this.lblDependants.Size = new System.Drawing.Size(99, 20);
             this.lblDependants.TabIndex = 18;
             this.lblDependants.Text = "Dependants";
             // 
             // lstDependants
             // 
             this.lstDependants.FormattingEnabled = true;
-            this.lstDependants.ItemHeight = 16;
+            this.lstDependants.ItemHeight = 20;
             this.lstDependants.Location = new System.Drawing.Point(180, 356);
             this.lstDependants.Margin = new System.Windows.Forms.Padding(4);
             this.lstDependants.Name = "lstDependants";
@@ -181,7 +181,7 @@
             this.txtDependants.Location = new System.Drawing.Point(180, 321);
             this.txtDependants.Margin = new System.Windows.Forms.Padding(4);
             this.txtDependants.Name = "txtDependants";
-            this.txtDependants.Size = new System.Drawing.Size(291, 22);
+            this.txtDependants.Size = new System.Drawing.Size(291, 26);
             this.txtDependants.TabIndex = 10;
             this.txtDependants.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtDependants_KeyUp);
             // 
@@ -289,7 +289,7 @@
             // 
             // frmMemeberDetails
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(617, 585);
             this.Controls.Add(this.btnUpload);
@@ -322,7 +322,6 @@
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Member Details";
-            this.Load += new System.EventHandler(this.frmMemeberDetails_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picMember)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

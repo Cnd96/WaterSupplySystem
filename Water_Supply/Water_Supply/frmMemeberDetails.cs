@@ -30,10 +30,6 @@ namespace Water_Supply
                 btnSave.Enabled = false;
             }
         }
-        private void frmMemeberDetails_Load(object sender, EventArgs e)
-        {
-
-        }
 
         private void btnAddDepen_Click(object sender, EventArgs e)
         {
